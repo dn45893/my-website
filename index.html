@@ -3,32 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage with Background Image</title>
+  <style>
+    header {
+      background-image: url('images/top-image.jpg');
+      background-size: cover; /* Makes the image cover the entire section */
+      background-position: center; /* Centers the image */
+      height: 300px; /* Adjust the height of the header */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Webpage</h1>
+  </header>
+  <p>This is the content of the webpage.</p>
+</body>
+</html>
+
   <title>My Webpage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Pharmacutical Collage</h1>
+    <h1>Saraladevi Pharmacutical Collage</h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#Home">Home</a></li>
+		<li><a href="#Facilities">Facilities</a></li>
+		<li><a href="#Gallery">Galerry</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>This is a sample webpage created to demonstrate basic HTML structure.</p>
+    <p>Welcome to Sarladevi Pharmacy Collage, Jharsuguda.</p>
   </section>
 
   <section id="services">
     <h2>Services</h2>
     <ul>
-      <li>Web Design</li>
-      <li>Development</li>
-      <li>SEO Optimization</li>
+      <li>About Us</li>
+      <li>Our Facilities</li>
+      <li>Our Mission</li>
     </ul>
   </section>
 
@@ -37,10 +69,4 @@
   </footer>
 </body>
 </html>
-<img src="my-image.jpg" alt="Description of the image">
-<img src="my-image.jpg" alt="Description of the image" width="300" height="200">
-<section id="gallery">
-  <h2>Photo Gallery</h2>
-  <img src="images/photo1.jpg" alt="A beautiful landscape" width="300">
-  <img src="images/photo2.jpg" alt="Sunset by the beach" width="300">
-</section>
+<link rel="stylesheet" href="styles.css">
